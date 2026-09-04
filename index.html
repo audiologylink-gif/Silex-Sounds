@@ -1,366 +1,318 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta
-      name="description"
-      content="Silex Sound — premium hearing technology engineered for real life."
-    />
+  <meta
+    name="description"
+    content="Silex Sounds — premium hearing technology engineered for real life."
+  />
 
-    <title>Silex Sound — Hear more. Live fully.</title>
+  <title>Silex Sounds</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-    <link rel="stylesheet" href="styles.css" />
-  </head>
+<body>
+  <!-- Ambient background -->
+  <div class="ambient ambient-blue"></div>
+  <div class="ambient ambient-ice"></div>
 
-  <body>
-    <!-- Ambient background -->
-    <div class="ambient ambient-one" aria-hidden="true"></div>
-    <div class="ambient ambient-two" aria-hidden="true"></div>
-    <div class="ambient ambient-three" aria-hidden="true"></div>
+  <div class="background-lines" aria-hidden="true">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
 
-    <div class="background-lines" aria-hidden="true">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
+  <div class="site-shell">
 
-    <main class="site-shell" id="top">
+    <!-- ================= HEADER ================= -->
+    <header class="site-header glass-panel">
+      <a href="#" class="brand" aria-label="Silex Sounds home">
+        <span class="brand-mark">S</span>
+        <span class="brand-name">SILEX SOUNDS</span>
+      </a>
 
-      <!-- HEADER -->
-      <header class="header glass-panel">
-
-        <a
-          class="logo"
-          href="#top"
-          aria-label="Silex Sound home"
-        >
-          <span>SILEX</span>
-          <small>SOUND</small>
-        </a>
-
-        <button
-          class="menu-toggle"
-          type="button"
-          aria-label="Toggle navigation"
-          aria-expanded="false"
-        >
-          <span></span>
-          <span></span>
-        </button>
-
-        <nav
-          class="navigation"
-          aria-label="Primary navigation"
-        >
-          <a href="#products">Products</a>
-          <a href="#technology">Technology</a>
-          <a href="#support">Support</a>
-          <a href="#about">About</a>
-
-          <a
-            class="button buy-button"
-            href="#products"
-          >
-            Buy Now
-          </a>
-        </nav>
-
-      </header>
-
-
-      <!-- HERO -->
-      <section
-        class="hero"
-        id="products"
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation"
+        aria-expanded="false"
       >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
 
-        <!-- HERO COPY -->
-        <div class="hero-copy">
+      <nav class="navigation" aria-label="Main navigation">
+        <a href="#products">Products</a>
+        <a href="#technology">Technology</a>
+        <a href="#support">Support</a>
+        <a href="#about">About</a>
+        <a href="#products" class="nav-cta">Buy Now</a>
+      </nav>
+    </header>
 
-          <div class="eyebrow glass-pill">
+
+    <!-- ================= HERO ================= -->
+    <main>
+
+      <section class="hero" id="products">
+
+        <div class="hero-content">
+          <div class="eyebrow">
             <span class="eyebrow-dot"></span>
             Hearing technology, reimagined
           </div>
 
           <h1>
-            Hear more.
-            <br />
-            <strong>Live fully.</strong>
+            Hear more.<br />
+            <span>Live fully.</span>
           </h1>
 
           <p class="hero-description">
-            Premium hearing technology
-            <br class="desktop-break" />
-            engineered for real life.
+            Premium hearing technology engineered for real life.
           </p>
 
           <div class="hero-actions">
-
-            <a
-              class="button hero-button"
-              href="#technology"
-            >
+            <a href="#technology" class="button button-primary">
               Explore Products
-              <span>↗</span>
+              <span>→</span>
             </a>
 
-            <a
-              class="text-link"
-              href="#technology"
-            >
+            <a href="#technology" class="button button-glass">
               Discover the technology
-              <span>↓</span>
             </a>
-
           </div>
 
+          <div class="hero-meta">
+            <span>Precision engineered</span>
+            <span class="meta-divider"></span>
+            <span>Designed for everyday life</span>
+          </div>
         </div>
 
 
-        <!-- PRODUCT GLASS PANEL -->
-        <div
-          class="product-visual glass-panel"
-          role="img"
-          aria-label="Product image placeholder for two hearing aids and an open charging case"
-        >
+        <!-- Product placeholder -->
+        <div class="product-stage glass-panel">
 
-          <div
-            class="product-orb product-orb-one"
-            aria-hidden="true"
-          ></div>
+          <div class="product-glow"></div>
 
-          <div
-            class="product-orb product-orb-two"
-            aria-hidden="true"
-          ></div>
-
-          <div
-            class="product-ring"
-            aria-hidden="true"
-          ></div>
+          <div class="signal signal-one"></div>
+          <div class="signal signal-two"></div>
+          <div class="signal signal-three"></div>
 
           <div class="product-placeholder">
-
             <div class="placeholder-icon">
-              <span></span>
-              <span></span>
+              <div class="placeholder-case"></div>
+              <div class="placeholder-device"></div>
+              <div class="placeholder-device second"></div>
             </div>
 
-            <span class="product-label">
+            <span class="placeholder-label">
               PRODUCT IMAGE
             </span>
 
-            <small>
+            <strong>
               Two hearing aids + charging case
+            </strong>
+
+            <small>
+              Premium hearing technology
             </small>
-
           </div>
 
-          <div class="visual-caption glass-pill">
-            <span class="status-dot"></span>
-            Premium hearing technology
+          <div class="stage-label stage-label-top">
+            SILEX / 01
           </div>
 
+          <div class="stage-label stage-label-bottom">
+            <span></span>
+            Designed around you
+          </div>
         </div>
 
       </section>
 
 
-      <!-- BENEFITS -->
-      <section
-        class="technology-section"
-        id="technology"
-        aria-label="Silex technology benefits"
-      >
+      <!-- ================= TECHNOLOGY ================= -->
+      <section class="technology-section" id="technology">
 
         <div class="section-heading">
-
-          <span class="section-kicker">
-            WHY SILEX
-          </span>
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            Why Silex
+          </div>
 
           <h2>
-            Technology that
-            <span>fits real life.</span>
+            Technology that fits<br />
+            <span>real life.</span>
           </h2>
 
+          <p>
+            Thoughtfully engineered hearing technology designed to feel
+            natural, comfortable and dependable from morning to night.
+          </p>
         </div>
 
 
         <div class="feature-grid">
 
-          <!-- CARD 1 -->
           <article class="feature-card glass-panel">
+            <div class="feature-number">01</div>
 
-            <div class="feature-top">
-              <span class="feature-number">01</span>
-
-              <span
-                class="feature-icon icon-sound"
-                aria-hidden="true"
-              >
-                <i></i>
-                <i></i>
-                <i></i>
-              </span>
+            <div class="feature-icon">
+              <span class="icon-wave"></span>
             </div>
 
-            <div class="feature-content">
-              <h3>Advanced Sound</h3>
+            <h3>Advanced Sound</h3>
 
-              <p>
-                Natural, clear sound designed to help you
-                stay connected to the moments that matter.
-              </p>
-            </div>
+            <p>
+              Natural, clear sound processing helps you stay connected
+              to the people and moments that matter.
+            </p>
 
-            <span class="card-arrow">↗</span>
-
+            <span class="feature-link">
+              Natural &amp; clear
+              <span>→</span>
+            </span>
           </article>
 
 
-          <!-- CARD 2 -->
           <article class="feature-card glass-panel">
+            <div class="feature-number">02</div>
 
-            <div class="feature-top">
-              <span class="feature-number">02</span>
-
-              <span
-                class="feature-icon icon-comfort"
-                aria-hidden="true"
-              >
-                <i></i>
-              </span>
+            <div class="feature-icon">
+              <span class="icon-comfort"></span>
             </div>
 
-            <div class="feature-content">
-              <h3>All Day Comfort</h3>
+            <h3>All Day Comfort</h3>
 
-              <p>
-                Light. Secure. Discreet. Made to feel
-                effortless from morning to night.
-              </p>
-            </div>
+            <p>
+              Lightweight, secure and discreet designs made to fit
+              comfortably into everyday routines.
+            </p>
 
-            <span class="card-arrow">↗</span>
-
+            <span class="feature-link">
+              Light. Secure. Discreet.
+              <span>→</span>
+            </span>
           </article>
 
 
-          <!-- CARD 3 -->
           <article class="feature-card glass-panel">
+            <div class="feature-number">03</div>
 
-            <div class="feature-top">
-              <span class="feature-number">03</span>
-
-              <span
-                class="feature-icon icon-power"
-                aria-hidden="true"
-              >
-                <i></i>
-              </span>
+            <div class="feature-icon">
+              <span class="icon-power"></span>
             </div>
 
-            <div class="feature-content">
-              <h3>Reliable Power</h3>
+            <h3>Reliable Power</h3>
 
-              <p>
-                Long-lasting performance and smart
-                charging for everyday confidence.
-              </p>
-            </div>
+            <p>
+              Dependable battery performance and smart charging help
+              keep you hearing throughout your day.
+            </p>
 
-            <span class="card-arrow">↗</span>
-
+            <span class="feature-link">
+              Longer. Smarter.
+              <span>→</span>
+            </span>
           </article>
 
 
-          <!-- CARD 4 -->
-          <article
-            class="feature-card glass-panel"
-            id="support"
-          >
+          <article class="feature-card glass-panel">
+            <div class="feature-number">04</div>
 
-            <div class="feature-top">
-              <span class="feature-number">04</span>
-
-              <span
-                class="feature-icon icon-support"
-                aria-hidden="true"
-              >
-                <i></i>
-                <i></i>
-              </span>
+            <div class="feature-icon">
+              <span class="icon-support"></span>
             </div>
 
-            <div class="feature-content">
-              <h3>Local Support</h3>
+            <h3>Local Support</h3>
 
-              <p>
-                Real people, practical guidance and
-                support whenever you need it.
-              </p>
-            </div>
+            <p>
+              Personal support when you need it, with guidance that
+              continues long after your first fitting.
+            </p>
 
-            <span class="card-arrow">↗</span>
-
+            <span class="feature-link">
+              Here for you
+              <span>→</span>
+            </span>
           </article>
 
         </div>
-
       </section>
 
 
-      <!-- GLASS CTA -->
-      <section
-        class="cta-section glass-panel"
-        id="about"
-      >
+      <!-- ================= SUPPORT CTA ================= -->
+      <section class="support-section" id="support">
 
-        <div class="cta-glow" aria-hidden="true"></div>
+        <div class="support-card glass-panel">
 
-        <div class="cta-content">
+          <div class="support-glow"></div>
 
-          <span class="section-kicker">
-            THE SILEX DIFFERENCE
-          </span>
+          <div class="support-content">
+            <div class="eyebrow">
+              <span class="eyebrow-dot"></span>
+              Personal support
+            </div>
+
+            <h2>
+              Better hearing starts<br />
+              <span>with better support.</span>
+            </h2>
+
+            <p>
+              From finding the right technology to getting the most from
+              your hearing experience, we're here to help.
+            </p>
+
+            <a href="#about" class="button button-primary">
+              Talk to Silex
+              <span>→</span>
+            </a>
+          </div>
+
+          <div class="support-orbit" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+        </div>
+      </section>
+
+
+      <!-- ================= ABOUT ================= -->
+      <section class="about-section" id="about">
+
+        <div class="about-card glass-panel">
+
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            About Silex
+          </div>
 
           <h2>
-            Better hearing
-            <br />
-            starts with <span>better support.</span>
+            Hearing technology,<br />
+            <span>made human.</span>
           </h2>
 
           <p>
-            Thoughtful technology is only part of the experience.
-            We're here to make the journey to better hearing
-            simple, personal and clear.
+            We believe better hearing should feel effortless. Silex Sounds
+            brings together thoughtful design, advanced technology and
+            personal support to create a better everyday hearing experience.
           </p>
 
-          <a
-            class="button hero-button"
-            href="mailto:hello@silexsounds.com?subject=Find%20my%20fit"
-          >
-            Talk to Silex
-            <span>↗</span>
-          </a>
-
-        </div>
-
-        <div class="cta-decoration" aria-hidden="true">
-          <span></span>
-          <span></span>
-          <span></span>
         </div>
 
       </section>
@@ -368,39 +320,26 @@
     </main>
 
 
-    <!-- FOOTER -->
-    <footer class="footer">
+    <!-- ================= FOOTER ================= -->
+    <footer class="site-footer">
 
       <div class="footer-brand">
-        <a
-          class="logo"
-          href="#top"
-          aria-label="Silex Sound home"
-        >
-          <span>SILEX</span>
-          <small>SOUND</small>
-        </a>
-
-        <p>
-          Hearing technology for real life.
-        </p>
+        <span class="brand-mark">S</span>
+        <span>SILEX SOUNDS</span>
       </div>
 
-      <div class="footer-right">
+      <p>
+        Premium hearing technology for real life.
+      </p>
 
-        <a href="mailto:hello@silexsounds.com">
-          hello@silexsounds.com
-        </a>
-
-        <span>
-          © <span id="year"></span> Silex Sound
-        </span>
-
-      </div>
+      <span class="copyright">
+        © <span id="year"></span> Silex Sounds
+      </span>
 
     </footer>
 
+  </div>
 
-    <script src="script.js"></script>
-  </body>
+  <script src="script.js"></script>
+</body>
 </html>
